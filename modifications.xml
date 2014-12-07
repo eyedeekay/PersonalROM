@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
-
+	<project name="cmotc/android_vendor_PR_common" path="vendor/PR/common" remote="github" revision="master" />
+	<project name="cmotc/Superuser" path="external/cmotc/Superuser" remote="github" revision="master" />
+	<project name="cmotc/Widgets" path="external/cmotc/Widgets" remote="github" revision="master" />
 	<project name="cmotc/RotationLock" path="packages/apps/cmotc/RotationLock" remote="github" revision="landscape" />
 	<remove-project name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
 	<remove-project name="CyanogenMod/android_packages_apps_Email" />
